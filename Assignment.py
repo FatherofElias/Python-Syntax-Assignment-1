@@ -11,6 +11,8 @@ else:
 #Task 2
 user = "sad"
 print("How are you feeling today?")
-if user == "happy": print("That's great to hear!")
-else:
-    if user == "sad": print("I hope your day gets better!")
+
+if user == "happy":
+    print("That's great to hear!")
+elif user == "sad":
+    print("I hope your day gets better!")
